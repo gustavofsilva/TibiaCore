@@ -50,6 +50,13 @@ TibiaCore is designed to provide a stable and customizable environment for hosti
 
 ---
 
+## Scripting System
+TibiaCore uses a hybrid system for game logic:
+*   **XML**: Used for registering entities (monsters, spells, vocations, items) and defining their basic properties.
+*   **Lua**: Used for complex logic, such as quest triggers, custom spells, and NPC interactions. Scripts are located in `data/` and usually registered in a corresponding `.xml` file.
+
+---
+
 ## Configuration (config.lua)
 The `config.lua` file is the heart of your server's settings.
 
@@ -61,6 +68,24 @@ The `config.lua` file is the heart of your server's settings.
 | `rateExp` | Experience rate multiplier. |
 | `rateLoot` | Loot drop rate multiplier. |
 | `whiteSkullTime` | Duration of the white skull in seconds. |
+
+---
+
+## Compiling from Source
+
+### Ubuntu 22.04
+1.  **Dependencies**: `sudo apt install git cmake build-essential libluajit-5.1-dev libmariadb-dev-compat libboost-date-time-dev libboost-filesystem-dev libboost-system-dev libboost-iostreams-dev libpugixml-dev libgmp3-dev libcrypto++-dev libfmt-dev libjsoncpp-dev`
+2.  **Steps**:
+    ```bash
+    mkdir compiler/build && cd compiler/build
+    cmake ..
+    make -j$(nproc)
+    ```
+
+### Windows (Visual Studio 2017+)
+1.  **VCPKG**: Use vcpkg to install `boost`, `luajit`, `mariadb`, `pugixml`, `cryptopp`, `fmt`, `mpir`.
+2.  **Project**: Open `compiler/vc17/theforgottenserver.vcxproj`.
+3.  **Build**: Set configuration to `Release` and architecture to `x64`, then build the solution.
 
 ---
 
