@@ -15,6 +15,20 @@ Wait for load all libs...<br>
 And copiler project!
 </details>
 
+<hr>
+
+# 📚 Documentation & Tutorials
+New to TibiaCore? Check out our guides:
+*   [**General Documentation**](DOCS.md): Overview, compilation, and setup.
+*   [**How to Add Monsters**](tutorials/tutorial_add_monster.md): Step-by-step guide to custom creatures.
+*   [**How to Add Spells**](tutorials/tutorial_add_spell.md): Create custom magic and runes.
+*   [**How to Add Vocations**](tutorials/tutorial_add_vocation.md): Modify player classes and gains.
+*   [**How to Add Talkactions**](tutorials/tutorial_add_talkaction.md): Learn to create custom Lua commands.
+*   [**How to Add Quests**](tutorials/tutorial_add_quest.md): Simple chest quest tutorial.
+*   [**Mapping Guide**](tutorials/tutorial_mapping.md): Introduction to world editing.
+
+<hr>
+
 ### GCC for Ubuntu 22.04
 <details>
 <summary>Ubuntu Commands</summary>
