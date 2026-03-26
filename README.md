@@ -15,6 +15,16 @@ Wait for load all libs...<br>
 And copiler project!
 </details>
 
+<hr>
+
+# 📚 Documentation & Tutorials
+New to TibiaCore? Check out our guides:
+*   [**General Documentation**](DOCS.md): Overview, configuration, and setup.
+*   [**How to Add Monsters**](tutorials/tutorial_add_monster.md): Step-by-step guide to custom creatures.
+*   [**How to Add Talkactions**](tutorials/tutorial_add_talkaction.md): Learn to create custom Lua commands.
+
+<hr>
+
 ### GCC for Ubuntu 22.04
 <details>
 <summary>Ubuntu Commands</summary>
